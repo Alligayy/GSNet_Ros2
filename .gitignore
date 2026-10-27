@@ -1,0 +1,25 @@
+# Python 缓存与编译产物
+__pycache__/
+*.py[cod]
+*.so
+*.o
+*.d
+*.a
+build/
+dist/
+*.egg-info/
+
+# 大文件：预训练权重（超过 GitHub 100MB 限制，通过 Releases/网盘分发）
+*.tar
+*.tar.gz
+*.pth
+
+# 数据与可视化输出
+pointcloud/
+detect_ros/vis/*.ply
+
+# 编辑器配置
+.vscode/
+
+# 系统文件
+.DS_Store
