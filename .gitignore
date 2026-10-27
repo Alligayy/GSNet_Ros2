@@ -14,9 +14,6 @@ dist/
 *.tar.gz
 *.pth
 
-# 数据与可视化输出
-pointcloud/
-detect_ros/vis/*.ply
 
 # 编辑器配置
 .vscode/
